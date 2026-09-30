@@ -1,0 +1,5 @@
+# Program Menampilkan Tabel Perkalian
+n = int(input("Bilangan: "))
+
+for i in range(1, 11):
+    print(f"{n} x {i} = {n * i}")
